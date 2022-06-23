@@ -1,5 +1,6 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 /*=============== VARIABLES CSS ===============*/
 :root {
    --header-height: 3.5rem;
@@ -646,20 +647,234 @@ body.dark-theme {
       --small-font-size
    );
 }
+.section__first {
+   margin-bottom: 0;
+}
 
 /*=============== CELEBRATE ===============*/
+.celebrate__cloud-parent {
+   position: relative;
+}
+.celebrate__img-rotate {
+   margin-left: 10px !important;
+   transform: rotate(
+      2deg
+   );
+}
+.celebrate__cloud {
+   width: 450px;
+   height: 410px;
+   position: absolute;
+   left: 54%;
+   top: 19%;
+   transform: translate(
+      -50%,
+      -50%
+   );
+}
+.box {
+   overflow: hidden !important;
+   margin-top: 30px;
+   background: #fff;
+   border: solid
+      black;
+   border-color: black;
+}
+
+.box2 {
+   border-width: 3px
+      3px
+      5px
+      5px;
+   border-radius: 4%
+      95%
+      6%
+      95%/95%
+      4%
+      92%
+      5%;
+   transform: rotate(
+      -2deg
+   );
+}
+.box3 {
+   border-width: 3px
+      3px
+      5px
+      5px;
+   border-radius: 4%
+      95%
+      6%
+      95%/95%
+      6%
+      98%
+      7%;
+   transform: rotate(
+      -1deg
+   );
+}
+
+.box5 {
+   border-width: 3px
+      3px
+      5px
+      5px;
+   border-radius: 4%
+      95%
+      5%
+      95%/95%
+      5%
+      98%
+      7%;
+   transform: rotate(
+      -1deg
+   );
+}
+
+.box6 {
+   border-width: 3px
+      3px
+      5px
+      5px;
+   border-radius: 4%
+      95%
+      5%
+      95%/95%
+      5%
+      98%
+      7%;
+   transform: rotate(
+      -1deg
+   );
+}
+
+.box7 {
+   border-width: 3px
+      3px
+      5px
+      5px;
+   border-radius: 4%
+      95%
+      5%
+      95%/95%
+      5%
+      98%
+      7%;
+   transform: rotate(
+      -1deg
+   );
+}
+
+.box8 {
+   border-width: 3px
+      3px
+      5px
+      5px;
+   border-radius: 4%
+      95%
+      5%
+      95%/95%
+      5%
+      98%
+      7%;
+   transform: rotate(
+      -1deg
+   );
+}
+.celebrate
+   .celebrate_info_title
+   span {
+   color: #a41316 !important;
+}
+.celebrate__section-1
+   .celebrate__div-first {
+   margin-left: 50px;
+   margin-bottom: 30px;
+}
+.celebrate__cloud-text {
+   width: 300px;
+   height: 100px;
+   position: absolute;
+   left: 56%;
+   top: 16%;
+   transform: translate(
+      -50%,
+      -50%
+   );
+   font-size: 18px;
+   font-family: "Lobster",
+      cursive;
+}
 .celebrate__container {
    row-gap: 1rem;
 }
 
 .celebrate__data {
+   margin-left: 20px;
    text-align: center;
+}
+.celebrate__speech
+   blockquote.whisper {
+   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/whisper.svg);
+   width: 25%;
+   font-size: 2vw;
+   color: #ccc;
+   font-style: italic;
+   padding: 6%
+      5%
+      15%;
+}
+
+.celebrate__speech
+   blockquote.bubble {
+   background-position: center;
+   background-repeat: no-repeat !important;
+   background-size: 100%
+      100%;
+   margin: 0
+      auto;
+   text-align: center;
+   height: 0;
+   box-sizing: content-box;
+   line-height: 1;
 }
 
 .celebrate__title {
    margin-bottom: var(
       --mb-0-5
    );
+   margin-left: var(
+      --mb-0-5
+   );
+}
+.celebrate__btn {
+   margin-left: var(
+      --mb-2-5
+   );
+}
+
+section.blue {
+   margin-left: auto;
+}
+
+blockquote.bubble {
+   background-position: center;
+   background-repeat: no-repeat !important;
+   background-size: 100%
+      100%;
+   margin: 0
+      auto;
+   text-align: center;
+   height: 0;
+   box-sizing: content-box;
+   line-height: 1;
+}
+blockquote.speech {
+   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/speech-bubble.svg);
+   width: 70%;
+   height: auto;
+   padding-top: 6%;
+   padding-bottom: 20%;
 }
 
 .celebrate__title
@@ -668,8 +883,9 @@ body.dark-theme {
 }
 
 .celebrate__description {
-   margin-bottom: var(
-      --mb-2-5
+   text-align: left;
+   margin-left: var(
+      --mb-0-5
    );
 }
 
@@ -1597,6 +1813,11 @@ body.dark-theme {
       margin: auto;
       width: 600px;
    }
+   .celebrate__section-1 {
+      margin-top: 100px;
+      margin-left: 40px;
+   }
+
    .celebrate__img-2 {
       width: 450px;
       margin: auto;
@@ -1608,11 +1829,7 @@ body.dark-theme {
       font-size: 24px;
       margin-bottom: 0 !important;
    }
-   .celebrate
-      .celebrate_info_title
-      span {
-      color: #a41316 !important;
-   }
+
    .celebrate_info_wrap {
       display: flex;
       justify-content: space-between;
