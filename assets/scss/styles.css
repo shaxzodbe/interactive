@@ -690,8 +690,8 @@ body.dark-theme {
       95%
       6%
       95%/95%
-      4%
-      92%
+      2%
+      94%
       5%;
    transform: rotate(
       -2deg
@@ -703,7 +703,7 @@ body.dark-theme {
       5px
       5px;
    border-radius: 4%
-      95%
+      120%
       6%
       95%/95%
       6%
@@ -720,12 +720,12 @@ body.dark-theme {
       5px
       5px;
    border-radius: 4%
-      95%
+      55%
       5%
       95%/95%
-      5%
+      1%
       98%
-      7%;
+      2%;
    transform: rotate(
       -1deg
    );
@@ -740,7 +740,7 @@ body.dark-theme {
       95%
       5%
       95%/95%
-      5%
+      1%
       98%
       7%;
    transform: rotate(
@@ -759,7 +759,7 @@ body.dark-theme {
       95%/95%
       5%
       98%
-      7%;
+      4%;
    transform: rotate(
       -1deg
    );
@@ -772,11 +772,11 @@ body.dark-theme {
       5px;
    border-radius: 4%
       95%
-      5%
+      1%
       95%/95%
       5%
       98%
-      7%;
+      2%;
    transform: rotate(
       -1deg
    );
@@ -810,6 +810,7 @@ body.dark-theme {
 }
 
 .celebrate__data {
+   padding-left: 20px;
    text-align: center;
 }
 .celebrate__speech
@@ -1544,17 +1545,23 @@ blockquote.speech {
          -50%
       );
    }
+   .celebrate__data {
+      padding: 0;
+   }
+   .celebrate__description {
+      width: 95%;
+   }
    .celebrate__cloud-text {
-      width: 136px;
-      height: 79px;
+      width: 135px;
+      height: 41px;
       position: absolute;
-      left: 97%;
-      top: 18%;
+      left: 93%;
+      top: 15%;
       transform: translate(
          -50%,
          -50%
       );
-      font-size: 10px;
+      font-size: 8px;
       font-family: "Lobster",
          cursive;
    }
@@ -1562,10 +1569,10 @@ blockquote.speech {
 
 @media screen and (min-width: 320px) {
    .celebrate__cloud {
-      width: 150px;
-      height: 133px;
+      width: 157px;
+      height: 159px;
       position: absolute;
-      left: 88%;
+      left: 84%;
       top: 16%;
       transform: translate(
          -50%,
@@ -1573,41 +1580,16 @@ blockquote.speech {
       );
    }
    .celebrate__cloud-text {
-      width: 136px;
-      height: 79px;
+      width: 95px;
+      height: 64px;
       position: absolute;
-      left: 97%;
-      top: 18%;
+      left: 86%;
+      top: 17%;
       transform: translate(
          -50%,
          -50%
       );
-      font-size: 10px;
-      font-family: "Lobster",
-         cursive;
-   }
-   .celebrate__cloud {
-      width: 150px;
-      height: 133px;
-      position: absolute;
-      left: 88%;
-      top: 16%;
-      transform: translate(
-         -50%,
-         -50%
-      );
-   }
-   .celebrate__cloud-text {
-      width: 136px;
-      height: 79px;
-      position: absolute;
-      left: 97%;
-      top: 18%;
-      transform: translate(
-         -50%,
-         -50%
-      );
-      font-size: 10px;
+      font-size: 8px;
       font-family: "Lobster",
          cursive;
    }
@@ -1924,32 +1906,32 @@ blockquote.speech {
       );
    }
    .celebrate__cloud-text {
-      width: 242px;
+      width: 285px;
       height: 100px;
       position: absolute;
-      left: 49%;
-      top: 12%;
+      left: 54%;
+      top: 11%;
       transform: translate(
          -50%,
          -50%
       );
-      font-size: 18px;
+      font-size: 20px;
       font-family: "Lobster",
          cursive;
    }
 
-   .celebrate__section-1
+   /* .celebrate__section-1
       .celebrate__div-first {
       margin-top: 100px;
-   }
+   } */
    .celebrate__img {
       width: unset !important;
    }
    .celebrate__cloud {
-      width: 350px;
-      height: 310px;
+      width: 550px;
+      height: 380px;
       position: absolute;
-      left: 49%;
+      left: 54%;
       top: 13%;
       transform: translate(
          -50%,
@@ -1984,12 +1966,11 @@ blockquote.speech {
       margin: auto;
       width: 600px;
    }
-   .celebrate__section-1 {
+   /* .celebrate__section-1 {
       margin-top: 100px;
       /* margin-left: 40px; */
-   }
-
-   .celebrate__img-2 {
+   */
+      .celebrate__img-2 {
       width: 450px;
       margin: auto;
    }
