@@ -777,3 +777,57 @@ button {
       padding-right: 1rem;
    }
 }
+@media screen and (min-width: 1500px) {
+   .celebrate__cloud {
+      width: 290px;
+      height: 250px;
+      position: absolute;
+      left: 47%;
+      top: 15%;
+      transform: translate(
+         -50%,
+         -50%
+      );
+   }
+   .celebrate__cloud-text {
+      width: 175px;
+      height: 36px;
+      position: absolute;
+      left: 49%;
+      top: 7%;
+      transform: translate(
+         -50%,
+         -50%
+      );
+      font-size: 14px;
+      font-family: "Lobster",
+         cursive;
+   }
+}
+@media screen and (min-width: 2000px) {
+   .celebrate__cloud {
+      width: 331px;
+      height: 310px;
+      position: absolute;
+      left: 47%;
+      top: 15%;
+      transform: translate(
+         -50%,
+         -50%
+      );
+   }
+   .celebrate__cloud-text {
+      width: 175px;
+      height: 36px;
+      position: absolute;
+      left: 48%;
+      top: 7%;
+      transform: translate(
+         -50%,
+         -50%
+      );
+      font-size: 15px;
+      font-family: "Lobster",
+         cursive;
+   }
+}
